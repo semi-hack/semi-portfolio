@@ -112,7 +112,7 @@
       Engineered core modules powering B2B crypto payment flows, with support for both personal and organizational wallets. 
       Designed escrow and balance settlement logic triggered by events, confirmations, and cron jobs. Built provider-agnostic 
       webhook handling and ledger-based transaction tracking.
-      <br><strong>Tech:</strong> NestJS, PostgreSQL, Prisma, Redis, Webhooks, Cron, Event Queues
+      <br><strong>Tech:</strong> NestJS, PostgreSQL, Prisma, RabbitMQ, Webhooks, Event Queues
     </p>
 
     <p>
@@ -120,21 +120,21 @@
       Built APIs for a video monetization and engagement platform enabling fans to request videos from celebrities. 
       Designed and implemented a wallet and transaction system for both fans and creators, including support for discounts, 
       booking status workflows, and balance management. Integrated access control and real-time notification logic.
-      <br><strong>Tech:</strong> NestJS, MongoDB, Redis, Payment APIs, Role-based Access
+      <br><strong>Tech:</strong> NestJS, PostgreSQL, Redis, Payment APIs, Role-based Access
     </p>
 
     <p>
       <span class="project-title">3. <a href="https://auditbar.com/" target="_blank">AuditBar – Daily Settlement Engine</a></span><br>
       Developed a service that aggregates daily transactional fees, calculates provider commissions, and initiates 
-      automated payouts to bank accounts. Implemented cron-based reconciliation logic, provider fee rules, and 
+      automated payouts to bank accounts. Implemented reconciliation logic, provider fee rules, and 
       multi-party reporting flows.
-      <br><strong>Tech:</strong> TypeScript, MongoDB, NestJS, Cron Jobs, Financial Logic
+      <br><strong>Tech:</strong> TypeScript, MongoDB, NestJS, Financial Logic
     </p>
 
     <p>
-      <span class="project-title">3. Webhook Routing Engine (NestJS + Redis + PostgreSQL)</span><br>
+      <span class="project-title">4. Webhook Routing Engine (Golang + Redis + MongoDB)</span><br>
       Engine to receive, validate, and route third-party webhooks to internal services. Supports retry queues, signature verification, and dynamic routing rules.
-      <br><strong>Tech:</strong> NestJS, Redis, PostgreSQL, HMAC, BullMQ
+      <br><strong>Tech:</strong> Gin, Redis, Mongo, HMAC, BullMQ
     </p>
   </div>
 
